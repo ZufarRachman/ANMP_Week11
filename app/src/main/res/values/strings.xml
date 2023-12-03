@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ANMPStudent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="errorwhileloadingdata">error while loading data</string>
+    <string name="detail">Detail</string>
+    <string name="studentname">Student Name</string>
+    <string name="id">ID</string>
+    <string name="studentid">Student ID</string>
+    <string name="birthofdate">Birth of Date</string>
+    <string name="phone">Phone</string>
+    <string name="update">Update</string>
+</resources>

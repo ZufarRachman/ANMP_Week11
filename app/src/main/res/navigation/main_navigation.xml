@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.example.anmpstudent.view.StudentListFragment"
+        android:label="fragment_student_list"
+        tools:layout="@layout/fragment_student_list" >
+        <action
+            android:id="@+id/actionStudentDetail"
+            app:destination="@id/studentDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentDetailFragment"
+        android:name="com.example.anmpstudent.view.StudentDetailFragment"
+        android:label="fragment_student_detail"
+        tools:layout="@layout/fragment_student_detail" />
+    <fragment
+        android:id="@+id/carListFragment"
+        android:name="com.example.anmpstudent.view.CarListFragment"
+        android:label="fragment_car_list"
+        tools:layout="@layout/fragment_car_list" />
+</navigation>
