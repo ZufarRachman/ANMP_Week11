@@ -2,11 +2,17 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("androidx.navigation.safeargs.kotlin")
+    id("kotlin-kapt")
 }
 
 android {
     namespace = "com.example.anmpstudent"
     compileSdk = 34
+
+    buildFeatures{
+        dataBinding = true
+    }
+
 
     buildFeatures {
         compose = true
